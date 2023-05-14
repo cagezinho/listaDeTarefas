@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ccc;
+}
+
+header {
+    height: 100px;
+}
+
+main {
+    border: 1px solid rgba(114, 114, 114, 0.548);
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 1px 3px rgba(71, 71, 71, 0.664);
+    width: 600px;
+    background-color: white;
+}
+
+.titulo {
+    margin: 20px 10px 40px 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.botao__modal { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.modal-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.modal-body {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-body > form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#task {
+    display: block;
+    width: 300px;
+    padding: 15px;
+}
+
+#botao-task {
+    background-color: #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.tarefa {
+    margin-top: 10px;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.item__tarefa {
+    margin: auto auto auto 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+#excluirItem {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#editarItem {
+    background-color: rgb(221, 194, 75);
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    height: 100px;
+}
